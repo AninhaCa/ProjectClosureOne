@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		591E3C6130106757A75C63DC /* Pods_ProjectClosureOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53197B6415F0C9FF1BCB4F4 /* Pods_ProjectClosureOne.framework */; };
 		77251A4629CBC28C0048EEB0 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77251A4529CBC28C0048EEB0 /* Pizza.swift */; };
+		77251A4829CBC3AD0048EEB0 /* RequestPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77251A4729CBC3AD0048EEB0 /* RequestPizza.swift */; };
+		77251A4D29CBC7440048EEB0 /* MyCustomCellXIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77251A4B29CBC7440048EEB0 /* MyCustomCellXIB.swift */; };
+		77251A4E29CBC7440048EEB0 /* MyCustomCellXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77251A4C29CBC7440048EEB0 /* MyCustomCellXIB.xib */; };
+		77251A5029CBCA760048EEB0 /* PriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77251A4F29CBCA760048EEB0 /* PriceViewController.swift */; };
 		7763D54729CBC14200FA4AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763D54629CBC14200FA4AEB /* AppDelegate.swift */; };
 		7763D54929CBC14200FA4AEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763D54829CBC14200FA4AEB /* SceneDelegate.swift */; };
 		7763D54B29CBC14200FA4AEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763D54A29CBC14200FA4AEB /* ViewController.swift */; };
@@ -20,6 +24,10 @@
 /* Begin PBXFileReference section */
 		638B4F593706A8E827796D34 /* Pods-ProjectClosureOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectClosureOne.release.xcconfig"; path = "Target Support Files/Pods-ProjectClosureOne/Pods-ProjectClosureOne.release.xcconfig"; sourceTree = "<group>"; };
 		77251A4529CBC28C0048EEB0 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		77251A4729CBC3AD0048EEB0 /* RequestPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestPizza.swift; sourceTree = "<group>"; };
+		77251A4B29CBC7440048EEB0 /* MyCustomCellXIB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCellXIB.swift; sourceTree = "<group>"; };
+		77251A4C29CBC7440048EEB0 /* MyCustomCellXIB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomCellXIB.xib; sourceTree = "<group>"; };
+		77251A4F29CBCA760048EEB0 /* PriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewController.swift; sourceTree = "<group>"; };
 		7763D54329CBC14200FA4AEB /* ProjectClosureOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectClosureOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7763D54629CBC14200FA4AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7763D54829CBC14200FA4AEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,7 +84,11 @@
 				7763D54629CBC14200FA4AEB /* AppDelegate.swift */,
 				7763D54829CBC14200FA4AEB /* SceneDelegate.swift */,
 				77251A4529CBC28C0048EEB0 /* Pizza.swift */,
+				77251A4729CBC3AD0048EEB0 /* RequestPizza.swift */,
 				7763D54A29CBC14200FA4AEB /* ViewController.swift */,
+				77251A4F29CBCA760048EEB0 /* PriceViewController.swift */,
+				77251A4B29CBC7440048EEB0 /* MyCustomCellXIB.swift */,
+				77251A4C29CBC7440048EEB0 /* MyCustomCellXIB.xib */,
 				7763D54C29CBC14200FA4AEB /* Main.storyboard */,
 				7763D54F29CBC14300FA4AEB /* Assets.xcassets */,
 				7763D55129CBC14300FA4AEB /* LaunchScreen.storyboard */,
@@ -153,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77251A4E29CBC7440048EEB0 /* MyCustomCellXIB.xib in Resources */,
 				7763D55329CBC14300FA4AEB /* LaunchScreen.storyboard in Resources */,
 				7763D55029CBC14300FA4AEB /* Assets.xcassets in Resources */,
 				7763D54E29CBC14200FA4AEB /* Main.storyboard in Resources */,
@@ -210,7 +223,10 @@
 			files = (
 				77251A4629CBC28C0048EEB0 /* Pizza.swift in Sources */,
 				7763D54B29CBC14200FA4AEB /* ViewController.swift in Sources */,
+				77251A5029CBCA760048EEB0 /* PriceViewController.swift in Sources */,
+				77251A4D29CBC7440048EEB0 /* MyCustomCellXIB.swift in Sources */,
 				7763D54729CBC14200FA4AEB /* AppDelegate.swift in Sources */,
+				77251A4829CBC3AD0048EEB0 /* RequestPizza.swift in Sources */,
 				7763D54929CBC14200FA4AEB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,21 +9,20 @@ import UIKit
 
 class PriceViewController: UIViewController {
 
+    @IBOutlet var imagePrice: UIImageView!
+    @IBOutlet var labelName: UILabel!
+    @IBOutlet var labelPriceP: UILabel!
+    @IBOutlet var labelPriceM: UILabel!
+    @IBOutlet var labelPriceG: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+    }
+
+    @IBAction func back(_ sender: Any) {
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func follow(_ sender: Any) {
     }
-    */
-
 }

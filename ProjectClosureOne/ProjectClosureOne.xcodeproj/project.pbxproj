@@ -13,6 +13,7 @@
 		77251A4D29CBC7440048EEB0 /* MyCustomCellXIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77251A4B29CBC7440048EEB0 /* MyCustomCellXIB.swift */; };
 		77251A4E29CBC7440048EEB0 /* MyCustomCellXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77251A4C29CBC7440048EEB0 /* MyCustomCellXIB.xib */; };
 		77251A5029CBCA760048EEB0 /* PriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77251A4F29CBCA760048EEB0 /* PriceViewController.swift */; };
+		77251A5229CBD1E00048EEB0 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77251A5129CBD1E00048EEB0 /* RatingViewController.swift */; };
 		7763D54729CBC14200FA4AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763D54629CBC14200FA4AEB /* AppDelegate.swift */; };
 		7763D54929CBC14200FA4AEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763D54829CBC14200FA4AEB /* SceneDelegate.swift */; };
 		7763D54B29CBC14200FA4AEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763D54A29CBC14200FA4AEB /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 		77251A4B29CBC7440048EEB0 /* MyCustomCellXIB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCellXIB.swift; sourceTree = "<group>"; };
 		77251A4C29CBC7440048EEB0 /* MyCustomCellXIB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomCellXIB.xib; sourceTree = "<group>"; };
 		77251A4F29CBCA760048EEB0 /* PriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewController.swift; sourceTree = "<group>"; };
+		77251A5129CBD1E00048EEB0 /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
 		7763D54329CBC14200FA4AEB /* ProjectClosureOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectClosureOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7763D54629CBC14200FA4AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7763D54829CBC14200FA4AEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				77251A4729CBC3AD0048EEB0 /* RequestPizza.swift */,
 				7763D54A29CBC14200FA4AEB /* ViewController.swift */,
 				77251A4F29CBCA760048EEB0 /* PriceViewController.swift */,
+				77251A5129CBD1E00048EEB0 /* RatingViewController.swift */,
 				77251A4B29CBC7440048EEB0 /* MyCustomCellXIB.swift */,
 				77251A4C29CBC7440048EEB0 /* MyCustomCellXIB.xib */,
 				7763D54C29CBC14200FA4AEB /* Main.storyboard */,
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77251A4629CBC28C0048EEB0 /* Pizza.swift in Sources */,
+				77251A5229CBD1E00048EEB0 /* RatingViewController.swift in Sources */,
 				7763D54B29CBC14200FA4AEB /* ViewController.swift in Sources */,
 				77251A5029CBCA760048EEB0 /* PriceViewController.swift in Sources */,
 				77251A4D29CBC7440048EEB0 /* MyCustomCellXIB.swift in Sources */,
